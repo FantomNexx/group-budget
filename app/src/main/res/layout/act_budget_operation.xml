@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:id="@+id/root_layout"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+
+   <android.support.v7.widget.Toolbar
+      android:id="@+id/toolbar"
+      style="@style/MyToolbarStyle" />
+
+   <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/toolbar">
+
+      <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+         <com.fantomsoftware.groupbudget.cmp.CmpInputText
+            android:id="@+id/cmp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:resid_icon="@drawable/ic_translate_black_24dp"
+            app:resid_label="@string/input_label_budget_name" />
+
+         <com.fantomsoftware.groupbudget.cmp.CmpInputText
+            android:id="@+id/cmp_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:resid_icon="@drawable/ic_state_black_24dp"
+            app:resid_label="@string/input_label_budget_type" />
+
+         <com.fantomsoftware.groupbudget.cmp.CmpInputTextBtn
+            android:id="@+id/cmp_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:resid_icon="@drawable/ic_currency_black_24dp"
+            app:resid_label_btn="@string/input_label_user_pick_btn"
+            app:resid_label="@string/input_label_budget_sum" />
+
+            <TextView
+               android:id="@+id/tv_btn_sum_op_share_sum_evenly"
+               android:text="@string/sum_op_share_sum_evenly"
+               style="@style/MyTextBtn"
+               android:visibility="gone" />
+
+            <TextView
+               android:id="@+id/tv_btn_sum_op_get_sum_from_users"
+               android:text="@string/sum_op_get_sum_from_users"
+               style="@style/MyTextBtn"
+               android:visibility="gone" />
+
+            <TextView
+               android:id="@+id/tv_btn_sum_op_set_sum_diff_as_tips"
+               android:text="@string/sum_op_set_sum_diff_as_tips"
+               style="@style/MyTextBtn"
+               android:visibility="gone" />
+
+            <View
+               android:id="@+id/spacer"
+               android:layout_width="match_parent"
+               android:layout_height="8dp"
+               android:visibility="gone" />
+
+         <com.fantomsoftware.groupbudget.cmp.CmpUserListSums
+            android:id="@+id/cmp_users_sums"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:resid_icon="@drawable/ic_user_black_24dp"
+            app:resid_label_btn="@string/input_label_user_pick_btn"
+            app:resid_label="@string/input_label_select_users" />
+
+         <com.fantomsoftware.groupbudget.cmp.CmpInputText
+            android:id="@+id/cmp_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:resid_icon="@drawable/ic_text_black_24dp"
+            app:resid_label="@string/input_label_budget_comment" />
+
+         <com.fantomsoftware.groupbudget.cmp.CmpInputText
+            android:id="@+id/cmp_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:resid_icon="@drawable/ic_query_builder_black_24dp"
+            app:resid_label="@string/input_label_time" />
+      </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

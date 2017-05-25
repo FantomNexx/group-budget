@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/root_view"
+   style="@style/LayoutText_Nline">
+
+   <TextView
+      android:id="@+id/tv_name"
+      style="@style/Text_Name_1line"
+      android:text="Name" />
+
+</RelativeLayout>

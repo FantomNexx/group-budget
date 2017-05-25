@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/root_view"
+   android:layout_width="match_parent"
+   android:layout_height="@dimen/list_item_single_row_height"
+   android:background="?attr/selectableItemBackground"
+   android:descendantFocusability="blocksDescendants"
+   android:clickable="false"
+   android:focusable="false"
+   android:focusableInTouchMode="false">
+
+   <CheckBox
+      android:id="@+id/cb_used"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/list_item_single_row_height"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentLeft="true"
+      android:layout_alignParentTop="true"
+      android:theme="@style/MyCheckbox"
+      android:checked="true"
+      android:clickable="false"
+      android:gravity="center_vertical"
+      android:layout_marginStart="8dp"
+      android:layout_marginLeft="8dp"
+      />
+
+   <TextView
+      android:id="@+id/tv_code"
+      style="@style/Text_DarkNormal"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/list_item_single_row_height"
+      android:layout_marginStart="62dp"
+      android:layout_marginLeft="62dp"
+      android:gravity="center_vertical"
+      android:text="UAH" />
+
+   <TextView
+      android:id="@+id/tv_name"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/list_item_single_row_height"
+      android:layout_marginStart="112dp"
+      android:layout_marginLeft="112dp"
+      android:gravity="center_vertical"
+      android:text="Hryvna"
+      android:textColor="@color/grey_600"
+      android:textSize="@dimen/text_size_caption" />
+
+   <TextView
+      android:id="@+id/tv_country"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="@dimen/list_item_single_row_height"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginEnd="@dimen/list_item_margin_sides"
+      android:layout_marginRight="@dimen/list_item_margin_sides"
+      android:gravity="center_vertical|right"
+      android:ellipsize="end"
+      android:singleLine="false"
+      android:maxWidth="120dp"
+      android:maxLines="2"
+      android:text="Ukraine" />
+
+</RelativeLayout>

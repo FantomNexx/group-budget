@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+   android:id="@+id/root_view"
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:background="?attr/selectableItemBackground"
+   android:descendantFocusability="blocksDescendants"
+   android:clickable="false"
+   android:focusable="false"
+   android:focusableInTouchMode="false"
+   android:paddingBottom="@dimen/shift_normal">
+
+   <View
+      android:id="@+id/circle"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="12dp"
+      android:background="@drawable/background_circle"
+      android:gravity="center_vertical" />
+
+   <TextView
+      android:id="@+id/tv_sum"
+      style="@style/Text_DarkNormal"
+      android:layout_width="wrap_content"
+      android:layout_height="26dp"
+      android:layout_marginStart="62dp"
+      android:layout_marginLeft="62dp"
+      android:layout_marginTop="10dp"
+      android:ellipsize="end"
+      android:gravity="center_vertical"
+      android:maxWidth="150dp"
+      android:singleLine="true"
+      android:text="50 USD" />
+
+
+   <TextView
+      android:id="@+id/tv_date"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="26dp"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:layout_marginEnd="@dimen/list_item_margin_sides"
+      android:layout_marginRight="@dimen/list_item_margin_sides"
+      android:layout_marginTop="10dp"
+      android:ellipsize="end"
+      android:gravity="center_vertical"
+      android:maxWidth="150dp"
+      android:singleLine="true"
+      android:text="Mon 12 June 2015 12:34" />
+
+
+   <TextView
+      android:id="@+id/tv_name"
+      style="@style/Text_DarkMedium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/tv_sum"
+      android:layout_alignStart="@+id/tv_sum"
+      android:layout_below="@+id/tv_sum"
+      android:layout_marginEnd="@dimen/list_item_margin_sides"
+      android:layout_marginRight="@dimen/list_item_margin_sides"
+      android:gravity="center_vertical"
+      android:text="Trip to the airport" />
+
+
+   <TextView
+      android:id="@+id/tv_users"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignStart="@+id/tv_sum"
+      android:layout_alignLeft="@+id/tv_sum"
+      android:layout_below="@+id/tv_name"
+      android:layout_marginEnd="@dimen/list_item_margin_sides"
+      android:layout_marginRight="@dimen/list_item_margin_sides"
+      android:gravity="center_vertical"
+      android:text="Alex Verzun, Evgen Verzun" />
+
+
+   <TextView
+      android:id="@+id/tv_comment"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignStart="@+id/tv_users"
+      android:layout_alignLeft="@+id/tv_users"
+      android:layout_below="@+id/tv_users"
+      android:layout_marginEnd="@dimen/list_item_margin_sides"
+      android:layout_marginRight="@dimen/list_item_margin_sides"
+      android:gravity="center_vertical"
+      android:text="Take some money for a taxie in Alucakie near the city center." />
+
+</RelativeLayout>

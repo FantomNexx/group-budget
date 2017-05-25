@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/root_view"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:paddingStart="16dp"
+   android:paddingEnd="16dp"
+   android:paddingTop="4dp"
+   android:paddingBottom="4dp"
+   android:background="?attr/selectableItemBackground"
+   android:descendantFocusability="blocksDescendants"
+   android:focusableInTouchMode="false"
+   android:clickable="false"
+   android:focusable="false">
+
+   <RadioButton
+      android:id="@+id/rb_selected"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerVertical="true"
+      android:checked="true" />
+
+   <TextView
+      android:id="@+id/tv_title"
+      style="@style/Text_DarkNormal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="EXPENSE GROUP"
+      android:layout_toEndOf="@id/rb_selected"
+      android:layout_toRightOf="@id/rb_selected"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      />
+
+   <TextView
+      android:id="@+id/tv_descr"
+      style="@style/Text_GraySmall"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@color/grey_600"
+      android:textSize="@dimen/text_size_caption"
+      android:text="Sum subtracts from users' balances evenly."
+      android:layout_toEndOf="@id/rb_selected"
+      android:layout_toRightOf="@id/rb_selected"
+      android:layout_below="@id/tv_title"
+      android:layout_marginStart="16dp"
+      android:layout_marginLeft="16dp"
+      />
+
+</RelativeLayout>

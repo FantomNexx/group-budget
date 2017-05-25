@@ -1,0 +1,204 @@
+<resources>
+    <string name="app_name">Group budget</string>
+    <string name="google_app_id">groupbudget-1201</string>
+
+    //NAVIGATION DRAWER/////////////////////////////////////////////////////////
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_header_user_anonym">Anonymous usage</string>
+    <string name="navigation_header_default_name">Default Name</string>
+    <string name="navigation_header_default_email">default@email.com</string>
+
+    <string name="navigation_header_sign_in">SIGN IN</string>
+    <string name="navigation_header_sign_out">SIGN OUT</string>
+
+    <string name="navigation_header_signing_in">Signing in&#8230;</string>
+    <string name="navigation_header_signing_out">Signing out&#8230;</string>
+    <string name="navigation_header_signed_in">Signed out</string>
+    <string name="navigation_header_signed_out">Signed in</string>
+
+
+    //NAVIGATION TOOLBAR////////////////////////////////////////////////////////
+    <string name="navigation_item_budgets">Budgets</string>
+    <string name="navigation_item_users">Users</string>
+    <string name="navigation_item_currencies">Currencies</string>
+
+
+
+
+    //FRAGMENTS/////////////////////////////////////////////////////////////////
+    //FRAGMENT BUDGETS//////////////////////////////////////////////////////////
+    <string name="toolbar_title_budgets">Budgets</string>
+
+    //FRAGMENT USERS////////////////////////////////////////////////////////////
+    <string name="toolbar_title_users">Users</string>
+
+    //FRAGMENT CURRENCIES///////////////////////////////////////////////////////
+    <string name="toolbar_title_currencies">Currencies</string>
+    <string name="currency_tv_default">Default currency</string>
+
+
+
+    //ACTIVITIES////////////////////////////////////////////////////////////////
+    //ACTIVITY BUDGET///////////////////////////////////////////////////////////
+    <string name="toolbar_title_budget_add">New budget</string>
+    <string name="toolbar_title_budget_edit">Edit budget</string>
+    <string name="input_label_budget_name">Name</string>
+    <string name="input_label_budget_default_currency">Default currency</string>
+    <string name="input_label_budget_comment">Comment</string>
+    <string name="input_label_select_users">Users</string>
+    <string name="error_users_required">Please add some users first</string>
+    <string name="error_users_btn_add">ADD</string>
+
+    //ACTIVITY USER/////////////////////////////////////////////////////////////
+    <string name="toolbar_title_user_add">New user</string>
+    <string name="toolbar_title_user_edit">Edit user</string>
+    <string name="input_label_user_name">Name</string>
+
+    //ACTIVITY COMMON///////////////////////////////////////////////////////////
+    <string name="input_label_user_pick_btn">Pick</string>
+
+    //ACTIVITY BUDGET DETAILS///////////////////////////////////////////////////
+    <string name="tab_budget">Budget</string>
+    <string name="tab_user">Users</string>
+
+    //ACTIVITY BUDGET OPERATION/////////////////////////////////////////////////
+    <string name="toolbar_title_budget_op_add">New operation</string>
+    <string name="toolbar_title_budget_op_edit">Edit operation</string>
+    <string name="input_label_time">Date created</string>
+    <string name="input_label_budget_currency">Currency</string>
+    <string name="input_label_budget_type">Operation type</string>
+    <string name="input_label_budget_sum">Sum</string>
+
+
+
+    //DIALOGS///////////////////////////////////////////////////////////////////
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_close">CLOSE</string>
+    <string name="btn_share">SHARE</string>
+    <string name="btn_calc">CALC</string>
+    <string name="btn_tips">TIPS</string>
+    <string name="btn_share_report">Share report</string>
+
+    <string name="dialog_app_error_title">Application error</string>
+    <string name="dialog_app_error_text_storage">It is not possible to initialize storage.</string>
+
+    <string name="dialog_pick_currency_def_title">Pick default currency</string>
+    <string name="dialog_pick_currency_title">Pick currency</string>
+    <string name="dialog_pick_operation_type_title">Pick operation type</string>
+    <string name="dialog_pick_users_title">Pick users</string>
+    <string name="dialog_pick_user_title">Pick a user</string>
+    <string name="dialog_pick_date_title">Pick date</string>
+
+    <string name="dialog_enter_sum_title">Enter sum</string>
+
+    <string name="dialog_pick_stats_type">Pick stats type</string>
+
+    <string name="dialog_report">Report</string>
+    <string name="dialog_report_csv_title">Save report</string>
+    <string name="dialog_report_csv_label_name">Report name</string>
+
+    <string name="dialog_calc">CALC</string>
+    <string name="dialog_tips">TIPS</string>
+
+    <string name="dialog_tips_title">Tips calculation</string>
+    <string name="dialog_tips_lbl_sum">Sum</string>
+    <string name="dialog_tips_lbl_tips">Tips</string>
+    <string name="dialog_tips_lbl_total">Total</string>
+    <string name="dialog_tips_lbl_percent">Tips percent</string>
+    <string name="dialog_tips_lbl_round_to">Round to</string>
+
+
+
+    //CURRENCY SEARCH///////////////////////////////////////////////////////////
+    <string name="search">Search</string>
+    <string name="search_hint_currency">Type USD or Dollar</string>
+
+
+
+
+
+
+    //NOTIFICATION//////////////////////////////////////////////////////////////
+    <string name="notification_report_making">Generating report</string>
+    <string name="notification_report_complete">Report complete</string>
+
+
+
+    //APP INIT AND PERMISSIONS//////////////////////////////////////////////////
+    <string name="app_init_completed">Initialization completed</string>
+    <string name="app_init_initialization">Initialization</string>
+    <string name="app_init_failed">Initialization failed</string>
+    <string name="app_init_failed_end">App cannot be started, components were not loaded.</string>
+
+    <string name="app_int_btn_close">CLOSE APP</string>
+
+    <string name="permission_app_needs_storage">App needs STORAGE permission to run.</string>
+    <string name="permission_app_needs_accounts">App needs ACCOUNTS permission to log you in.</string>
+    <string name="permission_btn_choose">CHOOSE</string>
+
+
+
+    //COMMON////////////////////////////////////////////////////////////////////
+    <string name="action_save">SAVE</string>
+    <string name="action_report">Save to *.csv</string>
+
+    <string name="error_field_cannot_be_empty">This field cannot be empty</string>
+    <string name="error_field_cannot_be_zero">This field cannot be zero</string>
+    <string name="error_field_sums_are_not_match">Sums are not match</string>
+    <string name="error_field_pick_an_icon">Pick an icon</string>
+
+    <string name="error_msg_failed_operation">Failed to perform operation</string>
+
+    <string name="input_value_user_1">user</string>
+    <string name="input_value_user_2">users</string>
+    <string name="input_value_user_5">users</string>
+
+
+    <string name="op_type_in">INCOME</string>
+    <string name="op_type_in_out">INCOME and EXPENSE</string>
+    <string name="op_type_out">EXPENSE GROUP</string>
+    <string name="op_type_out_pers">EXPENSE INDIVIDUAL</string>
+    <string name="op_type_out_pers_tips">EXPENSE INDIVIDUAL +TIPS</string>
+
+    <string name="op_type_in_descr">Sum added to users\' balances.</string>
+    <string name="op_type_in_out_descr">Sum added to users\' balances and subtracts as expense.</string>
+    <string name="op_type_out_group_descr">Sum subtracts from users\' balances evenly.</string>
+    <string name="op_type_out_pers_descr">Sum of an expense is set individually for each user.</string>
+    <string name="op_type_out_pers_tips_descr">Tips are shared evenly, expenses should be sent individually.</string>
+
+    <string name="sum_op_share_sum_evenly">SHARE SUM EVENLY</string>
+    <string name="sum_op_get_sum_from_users">GET SUM FROM TOTAL</string>
+    <string name="sum_op_set_sum_diff_as_tips">SET SUM DIFFERENCE AS TIPS</string>
+
+
+    <string name="stats_option_title">Budget statistics</string>
+    <string name="stats_option_balance">BALANCE</string>
+    <string name="stats_option_total_added">ADDED</string>
+    <string name="stats_option_total_spent">SPENT</string>
+
+    <string name="change">CHANGE</string>
+    <string name="total">TOTAL</string>
+
+    <string name="user_deleted">Deleted user</string>
+
+
+    <string name="content_description_empty"> </string>
+
+
+    //BOTTOM SHEETS/////////////////////////////////////////////////////////////
+    <string name="bottom_sheet_title">Pick action</string>
+    <string name="bottom_sheet_edit">Edit</string>
+    <string name="bottom_sheet_delete">Delete</string>
+
+    <string name="snack_msg_delete_success">Deleted</string>
+    <string name="snack_msg_delete_failed">Deleting failed</string>
+
+    <string name="bottom_sheet_show_stats">Show statistics</string>
+    <string name="bottom_sheet_hide_stats">Hide statistics</string>
+    <string name="bottom_sheet_scroll_top">Scroll top</string>
+    <string name="bottom_sheet_scroll_bottom">Scroll bottom</string>
+
+</resources>

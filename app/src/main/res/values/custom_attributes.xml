@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CmpInputText">
+        <attr name="resid_icon" format="reference" />
+        <attr name="resid_label" format="reference" />
+        <attr name="resid_label_btn" format="reference" />
+    </declare-styleable>
+
+
+
+
+
+
+</resources>
+

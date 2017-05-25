@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <item
+      android:id="@+id/bs_show_stats"
+      android:title="@string/bottom_sheet_show_stats"
+      android:icon="@drawable/ic_show_black_24dp"/>
+
+   <item
+      android:id="@+id/bs_hide_stats"
+      android:title="@string/bottom_sheet_hide_stats"
+      android:icon="@drawable/ic_hide_black_24dp"/>
+
+   <item
+      android:id="@+id/bs_scroll_top"
+      android:title="@string/bottom_sheet_scroll_top"
+      android:icon="@drawable/ic_scroll_top_black_24dp"/>
+
+   <item
+      android:id="@+id/bs_scroll_bottom"
+      android:title="@string/bottom_sheet_scroll_bottom"
+      android:icon="@drawable/ic_scroll_bottom_black_24dp"/>
+
+</menu>

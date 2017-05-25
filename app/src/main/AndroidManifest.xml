@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   package="com.fantomsoftware.groupbudget">
+
+   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+   <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+   <application
+      android:name=".data.Data"
+      android:theme="@style/AppTheme"
+      android:icon="@mipmap/app_icon"
+      android:label="@string/app_name"
+      android:allowBackup="true">
+
+      <activity
+         android:name=".views_act.Act_Splash"
+         android:configChanges="orientation|screenSize">
+
+         <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+
+      <activity
+         android:name=".views_act.Act"
+         android:configChanges="orientation|screenSize" />
+
+      <activity
+         android:name=".views_act.Act_User"
+         android:configChanges="orientation|screenSize" />
+
+      <activity
+         android:name=".views_act.Act_Budget"
+         android:configChanges="orientation|screenSize" />
+
+      <activity
+         android:name=".views_act.Act_BudgetOperations"
+         android:configChanges="orientation|screenSize" />
+
+      <activity
+         android:name=".views_act.Act_BudgetOperation"
+         android:configChanges="orientation|screenSize" />
+
+      <activity
+         android:name=".views_act.Act_Authorization"
+         android:configChanges="orientation|screenSize" />
+
+   </application>
+</manifest>

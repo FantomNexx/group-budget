@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:layout_gravity="center_horizontal"
+   android:gravity="center_horizontal"
+   android:orientation="horizontal"
+   android:focusable="true"
+   android:focusableInTouchMode="true"
+   android:clickable="true"
+   android:id="@+id/root_layout"
+   android:baselineAligned="false"
+   android:paddingStart="16dp"
+   android:paddingEnd="16dp"
+   android:paddingTop="18dp"
+   android:paddingBottom="18dp"
+   >
+
+   <NumberPicker
+      android:id="@+id/np_day"
+      android:theme="@style/MyNumberPicker"
+      android:layout_width="32dp"
+      android:layout_height="wrap_content"/>
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="2dp"
+      android:layout_gravity="center_vertical"
+      android:gravity="center_vertical"
+      android:textStyle="bold"
+      android:text="/"/>
+
+   <NumberPicker
+      android:id="@+id/np_month"
+      android:theme="@style/MyNumberPicker"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      />
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="2dp"
+      android:layout_gravity="center_vertical"
+      android:gravity="center_vertical"
+      android:textStyle="bold"
+      android:text="/"/>
+
+   <NumberPicker
+      android:id="@+id/np_year"
+      android:theme="@style/MyNumberPicker"
+      android:layout_width="64dp"
+      android:layout_height="wrap_content"
+      />
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="4dp"
+      android:layout_gravity="center_vertical"
+      android:gravity="center_vertical"
+      android:textStyle="bold"
+      android:text="  "/>
+
+   <NumberPicker
+      android:id="@+id/np_hours"
+      android:theme="@style/MyNumberPicker"
+      android:layout_width="32dp"
+      android:layout_height="wrap_content"
+      />
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:padding="2dp"
+      android:layout_gravity="center_vertical"
+      android:gravity="center_vertical"
+      android:textStyle="bold"
+      android:text=":"/>
+
+   <NumberPicker
+      android:id="@+id/np_minutes"
+      android:theme="@style/MyNumberPicker"
+      android:layout_width="32dp"
+      android:layout_height="wrap_content"
+      />
+
+</LinearLayout>

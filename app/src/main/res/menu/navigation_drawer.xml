@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+           android:id="@+id/nav_item_budgets"
+           android:checked="false"
+           android:icon="@drawable/ic_style_black_24dp"
+           android:title="@string/navigation_item_budgets" />
+
+        <item
+           android:id="@+id/nav_item_users"
+           android:checked="false"
+           android:icon="@drawable/ic_user_black_24dp"
+           android:title="@string/navigation_item_users" />
+
+        <item
+           android:id="@+id/nav_item_currencies"
+           android:checked="false"
+           android:icon="@drawable/ic_currency_black_24dp"
+           android:title="@string/navigation_item_currencies" />
+    </group>
+
+</menu>

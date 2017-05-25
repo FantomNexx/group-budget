@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Group budget</string>
+    <string name="google_app_id">groupbudget-1201</string>
+
+    //NAVIGATION
+    DRAWER/////////////////////////////////////////////////////////
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="navigation_header_user_anonym">Анонимное использование</string>
+    <string name="navigation_header_default_name">Пользователь</string>
+    <string name="navigation_header_default_email">default@email.com</string>
+
+    <string name="navigation_header_sign_in">ВОЙТИ</string>
+    <string name="navigation_header_sign_out">ВЫЙТИ</string>
+
+    <string name="navigation_header_signing_in">Идет подключение&#8230;</string>
+    <string name="navigation_header_signing_out">Идет отключение&#8230;</string>
+    <string name="navigation_header_signed_in">Подключено</string>
+    <string name="navigation_header_signed_out">Отключено</string>
+
+
+    //NAVIGATION
+    TOOLBAR////////////////////////////////////////////////////////
+    <string name="navigation_item_budgets">Бюджеты</string>
+    <string name="navigation_item_users">Пользователи</string>
+    <string name="navigation_item_currencies">Валюты</string>
+
+
+    //FRAGMENTS/////////////////////////////////////////////////////////////////
+    //FRAGMENT
+    BUDGETS//////////////////////////////////////////////////////////
+    <string name="toolbar_title_budgets">Бюджеты</string>
+
+    //FRAGMENT
+    USERS////////////////////////////////////////////////////////////
+    <string name="toolbar_title_users">Пользователи</string>
+
+    //FRAGMENT
+    CURRENCIES///////////////////////////////////////////////////////
+    <string name="toolbar_title_currencies">Валюты</string>
+    <string name="currency_tv_default">Валюта по умолчанию</string>
+
+
+    //ACTIVITIES////////////////////////////////////////////////////////////////
+    //ACTIVITY
+    BUDGET///////////////////////////////////////////////////////////
+    <string name="toolbar_title_budget_add">Новый бюжет</string>
+    <string name="toolbar_title_budget_edit">Изменить бюжет</string>
+    <string name="input_label_budget_name">Имя</string>
+    <string name="input_label_budget_default_currency">Валюта по умолчанию</string>
+    <string name="input_label_budget_comment">Комментарий</string>
+    <string name="input_label_select_users">Пользователи</string>
+    <string name="error_users_required">Сначала нужно добавить пользователей</string>
+    <string name="error_users_btn_add">ДОБАВИТЬ</string>
+
+
+    //ACTIVITY
+    USER/////////////////////////////////////////////////////////////
+    <string name="toolbar_title_user_add">Новый человек</string>
+    <string name="toolbar_title_user_edit">Изменить человека</string>
+    <string name="input_label_user_name">Имя</string>
+
+
+    //ACTIVITY
+    COMMON///////////////////////////////////////////////////////////
+    <string name="input_label_user_pick_btn">Выбрать</string>
+
+
+    //ACTIVITY BUDGET
+    DETAILS///////////////////////////////////////////////////
+    <string name="tab_budget">Бюджет</string>
+    <string name="tab_user">Пользователь</string>
+
+    //ACTIVITY BUDGET
+    OPERATION/////////////////////////////////////////////////
+    <string name="toolbar_title_budget_op_add">Новая перация</string>
+    <string name="toolbar_title_budget_op_edit">Изменить операцию</string>
+    <string name="input_label_time">Дата создания</string>
+    <string name="input_label_budget_currency">Валюта</string>
+    <string name="input_label_budget_type">Тип операции</string>
+    <string name="input_label_budget_sum">Сумма</string>
+
+
+    //DIALOGS///////////////////////////////////////////////////////////////////
+    <string name="btn_ok">ОК</string>
+    <string name="btn_cancel">ОТМЕНА</string>
+    <string name="btn_close">ЗАКРЫТЬ</string>
+    <string name="btn_share">ОТПРАВИТЬ</string>
+    <string name="btn_calc">КАЛЬКУЛЯТОР</string>
+    <string name="btn_tips">ЧАЕВЫЕ</string>
+    <string name="btn_share_report">Отправить отчет</string>
+
+
+    <string name="dialog_app_error_title">Ошибка в приложении</string>
+    <string name="dialog_app_error_text_storage">Не удалось установить доступ к хранилищу.</string>
+
+
+    <string name="dialog_pick_currency_def_title">Выберите валюту по умолчанию</string>
+    <string name="dialog_pick_currency_title">Выберите валюту</string>
+    <string name="dialog_pick_operation_type_title">Выберите тип операции</string>
+    <string name="dialog_pick_users_title">Выберите пользователей</string>
+    <string name="dialog_pick_user_title">Выберите пользователя</string>
+    <string name="dialog_pick_date_title">Выберите дату</string>
+
+    <string name="dialog_enter_sum_title">Введите сумму</string>
+
+    <string name="dialog_pick_stats_type">Выберите тип данных</string>
+
+    <string name="dialog_report">Отчет</string>
+    <string name="dialog_report_csv_title">Сохранить отчет</string>
+    <string name="dialog_report_csv_label_name">Имя отчета</string>
+
+    <string name="dialog_calc">КАЛЬКУЛЯТОР</string>
+    <string name="dialog_tips">ЧАЕВЫЕ</string
+        >
+    <string name="dialog_tips_title">Подсчет чаевых</string>
+    <string name="dialog_tips_lbl_sum">Сумма</string>
+    <string name="dialog_tips_lbl_tips">Чаевые</string>
+    <string name="dialog_tips_lbl_total">Всего</string>
+    <string name="dialog_tips_lbl_percent">Процент чаевых</string>
+    <string name="dialog_tips_lbl_round_to">Округлить до</string>
+
+
+    //CURRENCY
+    SEARCH///////////////////////////////////////////////////////////
+    <string name="search">Поиск</string>
+    <string name="search_hint_currency">Введите USD или Dollar</string>
+
+
+    //NOTIFICATION//////////////////////////////////////////////////////////////
+    <string name="notification_report_making">Создаётся отчет</string>
+    <string name="notification_report_complete">Отчет готов</string>
+
+
+    //APP INIT AND
+    PERMISSIONS//////////////////////////////////////////////////
+    <string name="app_init_completed">Инициализация завершена</string>
+    <string name="app_init_initialization">Инициализация</string>
+    <string name="app_init_failed">Инициализация не удалась</string>
+    <string name="app_init_failed_end">Приложение не смогло запуститься, компоненты не загружены.</string>
+
+    <string name="app_int_btn_close">ЗАКРЫТЬ ПРИЛОЖЕНИ</string>
+
+    <string name="permission_app_needs_storage">Приложению требуется доуступ к ХРАНИЛИЩУ.</string>
+    <string name="permission_app_needs_accounts">Приложению требуется доуступ к АККАУНТАМИ.</string>
+    <string name="permission_btn_choose">ВЫБРАТЬ</string>
+
+
+    //COMMON////////////////////////////////////////////////////////////////////
+    <string name="action_save">СОХРАНИТЬ</string>
+    <string name="action_report">СОХРАНИТЬ в *.csv</string>
+    <string name="error_field_cannot_be_empty">Поле не может быть пустым</string>
+    <string name="error_field_cannot_be_zero">Поле не может быть нулевым</string>
+    <string name="error_field_sums_are_not_match">Суммы не совпадают</string>
+    <string name="error_field_pick_an_icon">Выберите иконку</string>
+
+    <string name="error_msg_failed_operation">Не удалось выполнить операцию</string>
+
+    <string name="input_value_user_1">пользователь</string>
+    <string name="input_value_user_2">пользователя</string>
+    <string name="input_value_user_5">пользователей</string>
+
+
+    <string name="op_type_in">ПОПОЛНЕНИЕ</string>
+    <string name="op_type_in_out">ПОПОЛНЕНИЕ и РАСХОД</string>
+    <string name="op_type_out">РАСХОД</string>
+    <string name="op_type_out_pers">РАСХОД ЛИЧНЫЙ</string>
+    <string name="op_type_out_pers_tips">РАСХОД ЛИЧНЫЙ +ЧАЙ</string>
+
+    <string name="op_type_in_descr">Сумма добавляется на баланс пользователей.</string>
+    <string name="op_type_in_out_descr">Сумма добавляется на баланc и тут же списывается за расход.</string>
+    <string name="op_type_out_group_descr">Сумма списывается с балансов пользователей поровну.</string>
+    <string name="op_type_out_pers_descr">Сумма расхода задается индивидуально для каждого пользователя.</string>
+    <string name="op_type_out_pers_tips_descr">Задается общая сумма с чаевыми и расход по каждому пользователю. Чаевые делятся на всех поровну.</string>
+
+    <string name="sum_op_share_sum_evenly">РАЗДЕЛИТЬ СУММУ ПОРОВНУ</string>
+    <string name="sum_op_get_sum_from_users">ВЗЯТЬ СУММУ ИЗ ПОЛЬЗОВАТЕЛЕЙ</string>
+    <string name="sum_op_set_sum_diff_as_tips">ЗАДАТЬ РАЗНИЦУ СУММ КАК ЧАЕВЫЕ</string>
+
+
+    <string name="stats_option_title">Сводные данные</string>
+    <string name="stats_option_balance">БАЛАНС</string>
+    <string name="stats_option_total_added">ДОБАВЛЕНО</string>
+    <string name="stats_option_total_spent">ПОТРАЧЕНО</string>
+
+    <string name="change">ИЗМЕНИТЬ</string>
+    <string name="total">ВСЕГО</string>
+
+    <string name="user_deleted">Пользователь удалён</string>
+
+
+    <string name="content_description_empty"> </string>
+
+    //BOTTOM
+    SHEETS/////////////////////////////////////////////////////////////
+    <string name="bottom_sheet_title">Выберите действие</string>
+    <string name="bottom_sheet_edit">Изменить</string>
+    <string name="bottom_sheet_delete">Удалить</string>
+
+    <string name="snack_msg_delete_success">Удалено</string>
+    <string name="snack_msg_delete_failed">Не удалось удалить</string>
+
+    <string name="bottom_sheet_show_stats">Показать статистику</string>
+    <string name="bottom_sheet_hide_stats">Скрыть статистику</string>
+    <string name="bottom_sheet_scroll_top">Подняться вверх списка</string>
+    <string name="bottom_sheet_scroll_bottom">Спуститься вниз списка</string>
+
+</resources>

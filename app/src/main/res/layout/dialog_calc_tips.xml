@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/root_layout"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:orientation="vertical"
+   android:focusable="true"
+   android:focusableInTouchMode="true"
+   android:clickable="true"
+   android:baselineAligned="false"
+   android:paddingTop="16dp"
+   android:paddingStart="21dp"
+   android:paddingEnd="21dp"
+   android:paddingBottom="0dp">
+
+	<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="16dp">
+
+      <android.support.design.widget.TextInputLayout
+         android:hint="@string/dialog_tips_lbl_sum"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginStart="0dp"
+         android:layout_marginEnd="0dp">
+
+         <EditText
+            android:id="@+id/et_sum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_900"
+            android:text="127.30" />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+         android:hint="@string/dialog_tips_lbl_tips"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginStart="8dp"
+         android:layout_marginEnd="8dp">
+
+         <EditText
+            android:id="@+id/et_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_900"
+            android:text="12.70" />
+      </android.support.design.widget.TextInputLayout>
+
+      <android.support.design.widget.TextInputLayout
+         android:hint="@string/dialog_tips_lbl_total"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="1"
+         android:layout_marginStart="0dp"
+         android:layout_marginEnd="0dp">
+
+         <EditText
+            android:id="@+id/et_total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/grey_900"
+            android:text="130.00" />
+      </android.support.design.widget.TextInputLayout>
+	</LinearLayout>
+
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_marginLeft="5dp"
+      android:text="@string/dialog_tips_lbl_percent"
+      style="@style/Text_GraySmall" />
+	<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="48dp"
+      android:layout_marginBottom="16dp">
+
+      <SeekBar
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="5"
+         android:id="@+id/sb_percent"
+         android:layout_gravity="center"
+         android:progress="10"
+         android:paddingStart="5dp"
+         android:paddingLeft="5dp"
+         android:max="50"/>
+
+      <TextView
+         android:id="@+id/tv_percent_view"
+         android:text="10%"
+         style="@style/CalcBtnCmd"
+         android:textSize="15sp"/>
+	</LinearLayout>
+
+
+   <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="5dp"
+      android:layout_marginLeft="5dp"
+      android:text="@string/dialog_tips_lbl_round_to"
+      style="@style/Text_GraySmall" />
+	<LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="48dp">
+
+      <TextView
+         android:id="@+id/tv_to_"
+         style="@style/CalcBtnCmd"
+         android:text="-" />
+      <TextView
+         android:id="@+id/tv_to_1"
+         style="@style/CalcBtnReg"
+         android:text="1" />
+      <TextView
+         android:id="@+id/tv_to_5"
+         style="@style/CalcBtnReg"
+         android:text="5" />
+      <TextView
+         android:id="@+id/tv_to_10"
+         style="@style/CalcBtnReg"
+         android:text="10" />
+      <TextView
+         android:id="@+id/tv_to_20"
+         style="@style/CalcBtnReg"
+         android:text="20" />
+      <TextView
+         android:id="@+id/tv_to_50"
+         style="@style/CalcBtnReg"
+         android:text="50" />
+      <TextView
+         android:id="@+id/tv_to_100"
+         style="@style/CalcBtnReg"
+         android:text="100" />
+	</LinearLayout>
+
+</LinearLayout>

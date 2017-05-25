@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/root_view"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+   android:paddingTop="4dp"
+   android:paddingBottom="4dp"
+   android:background="?attr/selectableItemBackground"
+   android:clickable="false"
+   android:descendantFocusability="blocksDescendants"
+   android:focusable="false"
+   android:focusableInTouchMode="false"
+   android:gravity="center_vertical">
+
+
+   <RelativeLayout
+      android:id="@+id/rl_circle"
+      android:layout_width="32dp"
+      android:layout_height="32dp"
+      android:background="@drawable/background_circle">
+      <ImageView
+         android:id="@+id/iv_icon"
+         android:layout_width="24dp"
+         android:layout_height="24dp"
+         android:layout_centerInParent="true" />
+   </RelativeLayout>
+
+
+    <TextView
+       android:id="@+id/tv_amount_shared"
+       style="@style/Text_GraySmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentRight="true"
+       android:background="@drawable/background_small_txt_btn_ripple"
+       android:text="+ 4.77" />
+
+
+    <TextView
+       android:id="@+id/tv_amount_pers"
+       style="@style/Text_GraySmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_toStartOf="@id/tv_amount_shared"
+       android:layout_toLeftOf="@id/tv_amount_shared"
+       android:layout_marginEnd="4dp"
+       android:layout_marginRight="4dp"
+       android:background="@drawable/background_small_txt_btn_ripple"
+       android:text="102.50" />
+
+    <TextView
+       android:id="@+id/tv_name"
+       style="@style/Text_DarkMedium"
+       android:layout_marginStart="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_toStartOf="@id/tv_amount_pers"
+       android:layout_toLeftOf="@id/tv_amount_pers"
+       android:paddingEnd="8dp"
+       android:paddingRight="8dp"
+       android:singleLine="true"
+       android:ellipsize="end"
+       android:text="Velerian Antovachoski von Vanona und rider" />
+
+</RelativeLayout>

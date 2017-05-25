@@ -1,0 +1,255 @@
+<resources>
+
+   <!--APP THEME/////////////////////////////////////////////////////////////-->
+   <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="colorPrimary">@color/primary</item>
+      <item name="colorPrimaryDark">@color/primary_dark</item>
+      <item name="colorAccent">@color/accent</item>
+
+      <item name="android:textColorPrimary">@color/text_primary</item>
+      <item name="android:textColorSecondary">@color/text_secondary</item>
+
+      <item name="android:windowBackground">@color/window_background</item>
+      <item name="android:colorControlHighlight">@color/ripple</item>
+      <item name="android:statusBarColor">@color/primary_dark</item>
+      <item name="android:colorBackground">@color/background_material_light</item>
+      <item name="actionMenuTextColor">@color/white</item>
+
+      <!-- action menu style -->
+      <item name="popupMenuStyle">@style/MyActionMenu</item>
+	   <item name="dropDownListViewStyle">@style/MyActionMenuList</item>
+	   <item name="textAppearanceLargePopupMenu">@style/MyActionMenuText</item>
+      <item name="textAppearanceSmallPopupMenu">@style/MyActionMenuText</item>
+   </style>
+
+
+   <!-- action menu styles -->
+   <style name="MyActionMenu" parent="Widget.AppCompat.PopupMenu">
+      <item name="android:popupBackground">@drawable/abc_popup_background_mtrl_mult</item>
+   </style>
+   <style name="MyActionMenuList" parent="Widget.AppCompat.ListView.DropDown">
+      <item name="android:listSelector">@drawable/background_default</item>
+   </style>
+   <style name="MyActionMenuText" parent="Text_DarkNormal">
+      <item name="android:maxLines">1</item>
+      <item name="android:ellipsize">end</item>
+      <item name="android:scrollHorizontally">true</item>
+      <item name="android:singleLine">true</item>
+   </style>
+
+
+
+   <style name="Text_DarkNormal">
+      <item name="android:textSize">@dimen/text_size_normal</item>
+      <item name="android:textColor">@color/grey_900</item>
+      <item name="android:fontFamily">sans-serif</item>
+   </style>
+   <style name="Text_DarkMedium">
+      <item name="android:textSize">@dimen/text_size_normal</item>
+      <item name="android:textColor">@color/grey_900</item>
+      <item name="android:fontFamily">sans-serif-medium</item>
+   </style>
+   <style name="Text_GrayNormal">
+      <item name="android:textSize">@dimen/text_size_normal</item>
+      <item name="android:textColor">@color/grey_600</item>
+      <item name="android:fontFamily">sans-serif</item>
+   </style>
+   <style name="Text_GraySmall">
+      <item name="android:textSize">@dimen/text_size_caption</item>
+      <item name="android:textColor">@color/grey_600</item>
+      <item name="android:fontFamily">sans-serif</item>
+   </style>
+
+
+   <style name="Text_Name_Nline" parent="Text_DarkMedium">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:layout_marginStart">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginLeft">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginEnd">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginRight">@dimen/list_item_margin_sides</item>
+   </style>
+   <style name="Text_Comment_2line" parent="Text_GraySmall">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:layout_marginTop">0dp</item>
+      <item name="android:layout_marginBottom">4dp</item>
+      <item name="android:layout_marginStart">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginLeft">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginEnd">@dimen/list_item_margin_sides</item>
+      <item name="android:layout_marginRight">@dimen/list_item_margin_sides</item>
+   </style>
+   <style name="Text_Name_1line" parent="Text_Name_Nline">
+      <item name="android:layout_marginTop">4dp</item>
+      <item name="android:layout_marginBottom">4dp</item>
+   </style>
+   <style name="Text_Name_2line" parent="Text_Name_Nline">
+      <item name="android:layout_marginTop">4dp</item>
+   </style>
+
+
+   <style name="LayoutText_Nline">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:layout_marginTop">8dp</item>
+      <item name="android:layout_marginBottom">8dp</item>
+      <item name="android:background">?attr/selectableItemBackground</item>
+      <item name="android:clickable">false</item>
+      <item name="android:focusable">false</item>
+      <item name="android:focusableInTouchMode">false</item>
+      <item name="android:descendantFocusability">blocksDescendants</item>
+      <item name="android:gravity">center_vertical</item>
+   </style>
+
+
+
+   <style name="MyActionBtnMain" parent="Base.Theme.AppCompat.Light">
+      <item name="colorAccent">@color/accent</item>
+   </style>
+   <style name="MyActionBtnSecond" parent="MyActionBtnMain">
+      <item name="colorAccent">@color/primary</item>
+   </style>
+
+
+   <style name="MyToolbarStyle">
+      <item name="android:elevation">4dp</item>
+      <item name="android:paddingStart">0dp</item>
+      <item name="android:paddingEnd">8dp</item>
+      <item name="android:paddingLeft">0dp</item>
+      <item name="android:paddingRight">8dp</item>
+      <item name="android:background">@color/primary</item>
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">56dp</item>
+   </style>
+
+
+   <style name="MyAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+      <item name="android:textColorPrimary">@color/grey_900</item>
+      <item name="colorAccent">@color/accent</item>
+      <item name="android:background">@color/window_background</item>
+   </style>
+
+
+   <style name="MyTab" parent="Widget.Design.TabLayout">
+      <item name="tabIndicatorColor">@color/accent</item>
+      <item name="tabIndicatorHeight">2dp</item>
+      <item name="tabPaddingStart">12dp</item>
+      <item name="tabPaddingEnd">12dp</item>
+      <item name="tabBackground">@drawable/background_tab</item>
+      <item name="tabTextAppearance">@style/MyTabText</item>
+      <item name="tabSelectedTextColor">@color/white</item>
+      <item name="elevation">4dp</item>
+   </style>
+   <style name="MyTabText" parent="TextAppearance.Design.Tab">
+      <item name="android:textSize">14sp</item>
+      <item name="android:textColor">@color/primary_lighter</item>
+      <item name="textAllCaps">true</item>
+   </style>
+
+
+   <style name="MyNumberPicker" parent="Theme.AppCompat.Light">
+      <item name="android:textColorPrimary">@color/grey_900</item>
+      <item name="android:textColorSecondary">@color/accent</item>
+      <item name="android:textSize">@dimen/text_size_caption</item>
+   </style>
+
+
+   <style name="MyTextBtn">
+      <item name="android:layout_width">wrap_content</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:gravity">end</item>
+      <item name="android:layout_gravity">end</item>
+      <item name="android:layout_marginEnd">16dp</item>
+      <item name="android:layout_marginRight">16dp</item>
+      <item name="android:padding">8dp</item>
+      <item name="android:textSize">12sp</item>
+      <item name="android:textColor">@color/accent</item>
+      <item name="android:clickable">true</item>
+      <item name="android:background">@drawable/background_default</item>
+   </style>
+
+
+   <style name="MyCheckbox" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:textColorSecondary">@color/grey_400</item>
+      <item name="colorAccent">@color/accent</item>
+   </style>
+
+
+
+   <style name="CalcNumberRow">
+      <item name="android:orientation">horizontal</item>
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">48dp</item>
+   </style>
+   <style name="CalcBtnRes">
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">match_parent</item>
+      <item name="android:gravity">center_vertical|end</item>
+      <item name="android:layout_gravity">end</item>
+      <item name="android:textSize">20sp</item>
+      <item name="android:textColor">@color/grey_800</item>
+   </style>
+   <style name="CalcBtnReg">
+      <item name="android:layout_width">0dp</item>
+      <item name="android:layout_height">match_parent</item>
+      <item name="android:gravity">center_vertical|center_horizontal</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:textSize">20sp</item>
+      <item name="android:textColor">@color/grey_900</item>
+      <item name="android:background">@drawable/background_default</item>
+   </style>
+   <style name="CalcBtnCmd">
+      <item name="android:layout_width">0dp</item>
+      <item name="android:layout_height">match_parent</item>
+      <item name="android:layout_weight">1</item>
+      <item name="android:gravity">center_vertical|center_horizontal</item>
+      <item name="android:textSize">24sp</item>
+      <item name="android:textColor">@color/accent</item>
+      <item name="android:background">@drawable/background_default</item>
+   </style>
+
+
+
+   <style name="BottomSheet" parent="BottomSheet.Dialog">
+      <item name="android:backgroundDimAmount">0.5</item>
+      <item name="android:textColorPrimary">#212121</item>
+      <item name="android:textColorSecondary">#757575</item>
+   </style>
+
+</resources>
+
+
+
+
+   <!--
+   <style name="MyToolbar" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:textColorPrimary">@color/text_primary</item>
+      <item name="android:textColorSecondary">@color/primary_lighter</item>
+      <item name="android:textColorHint">@color/primary_lighter</item>
+      <item name="android:textColor">@color/text_primary</item>
+      <item name="colorAccent">@color/accent</item>
+      <item name="android:itemBackground">@drawable/background_default</item>
+      <item name="android:itemTextAppearance">@style/MyMenuText</item>
+   </style>
+   -->
+
+   <!--
+   <style name="MyMenuText" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:textColor">@color/grey_900</item>
+      <item name="actionMenuTextColor">@color/white</item>
+   </style>
+   -->
+
+   <!--
+   <style name="MyButton" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="colorButtonNormal">@color/primary_dark</item>
+      <item name="android:textColor">@color/white</item>
+   </style>
+
+   <style name="MyButtonBorderless" parent="Widget.AppCompat.Button.Borderless.Colored">
+      <item name="android:textColor">@color/primary_dark</item>
+      <item name="android:colorControlHighlight">@color/accent</item>
+      <item name="android:textColorSecondary">#cc0000</item>
+      <item name="android:itemBackground">#00cc00</item>
+   </style>
+   -->
