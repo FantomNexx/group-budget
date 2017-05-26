@@ -47,9 +47,5 @@
          android:name=".views_act.Act_BudgetOperation"
          android:configChanges="orientation|screenSize" />
 
-      <activity
-         android:name=".views_act.Act_Authorization"
-         android:configChanges="orientation|screenSize" />
-
    </application>
 </manifest>

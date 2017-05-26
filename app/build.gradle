@@ -8,8 +8,9 @@ android {
         applicationId "com.fantomsoftware.groupbudget"
         minSdkVersion 17
         targetSdkVersion 25
-        versionCode 7
-        versionName "1.4.3"
+        multiDexEnabled true
+        versionCode 8
+        versionName "1.4.4"
     }
     buildTypes {
         release {
@@ -20,14 +21,15 @@ android {
 }
 
 dependencies {
+
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile project(':bottomsheet')
 
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:support-v13:25.3.1'
-    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'com.android.support:support-v13:26.0.0-alpha1'
+    compile 'com.android.support:design:26.0.0-alpha1'
 
-    compile 'com.android.support:recyclerview-v7:25.3.1'
+    compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
 
-    compile 'com.google.android.gms:play-services:10.2.6'
+    compile 'com.android.support:multidex:1.0.1'
 }

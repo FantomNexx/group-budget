@@ -18,7 +18,7 @@ import com.fantomsoftware.groupbudget.utils.Storage;
 import com.fantomsoftware.groupbudget.utils.Utils;
 import com.fantomsoftware.groupbudget.views_act.Act_Splash;
 
-public class Data extends Application{
+public class Data extends android.support.multidex.MultiDexApplication{
 //--------------------------------------------------------------------
 
 public static boolean is_inited = false;

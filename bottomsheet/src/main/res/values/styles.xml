@@ -24,7 +24,7 @@
         <item name="bs_titleTextAppearance">@style/Text.Headline</item>
         <item name="bs_listItemTitleTextAppearance">@style/Text.Title</item>
         <item name="bs_gridItemTitleTextAppearance">@style/Text.Hint</item>
-        <item name="bs_moreText">@string/bs_more</item>
+        <item name="bs_moreText">@string/app_name</item>
         <item name="bs_closeDrawable">@drawable/bs_ic_clear_light</item>
         <item name="bs_moreDrawable">@drawable/bs_ic_more_light</item>
         <item name="bs_listStyle">@style/BottomSheet.List</item>

@@ -28,7 +28,6 @@ import com.fantomsoftware.groupbudget.views_act.Act_BudgetOperation;
 import com.fantomsoftware.groupbudget.cmp.CmpStatsBudget;
 import com.fantomsoftware.groupbudget.dialogs.DialogPickOptionSingl;
 import com.fantomsoftware.groupbudget.views_act.Act_BudgetOperations;
-import com.google.android.gms.nearby.messages.internal.Update;
 
 
 public class Frag_TabOpsBudget extends Fragment{
